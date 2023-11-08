@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F1F1F1;
+    
+    
+}
+
+.mcontainer{
+    min-height: 1400px;
+    margin: 3%;
+    /* background-color: cyan; */
+
+}
+
+
+.mparent{
+    margin-left:auto;
+    margin-right: auto;
+    width: 75%;
+    min-height: 1200px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 2fr 4fr ;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap: 1.5%;
+    /* background-color:aqua ; */
+
+}
+.mparent .mchild{
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.mparent .mleft-section{
+    grid-row-start: 1;
+    grid-row-end: 6;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* background-color: aquamarine; */
+    position: relative;
+}
+
+.mparent .mright-top{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* background-color: rgb(186, 186, 223); */
+}
+
+.mparent .mright-bottom{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* background-color: blueviolet; */
+}
+
+
+
+
+/* ==================================left section styling start===================== */
+
+.mimage-section{
+    /* background-color: rgb(208, 29, 29); */
+    width: 100%;
+}
+.mname{
+    position: absolute;
+    top: 18%;
+    color: whitesmoke;
+}
+.mright-inside-div{
+    margin-left: 2%;
+}
+
+.mcontact-section div{
+    padding:2% ;
+}
+.mlanguage-name{
+    padding: 2%;
+}
+.mskill-head{
+    padding: 2%;
+}
+
+/* ===================================left section styling end====================== */
+
+/* ==================== right-top section styling styling start================================= */
+
+.mleft-inside-div{
+    margin-left: 3%;
+}
+
+/*====================== right-top section styling end====================== */
+
+/* =============================right-bottom section styling start============================= */
+
+/* =============================right-bottom section styling end============================= */

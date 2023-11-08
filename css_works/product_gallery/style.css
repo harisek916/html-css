@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row{
+    width: 66%;
+    min-height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.col{
+    width: 30%;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.card-header{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.card-image img{
+    width: 100%;
+    height: 200px;
+}
+
+.card-title{
+    padding: 20px;
+    text-align: center;
+}
+
+.card-body ul{
+    list-style: none;
+    line-height: 30px;
+    margin-left: 2%;
+    
+}
+
+.card-body ul li i{
+    color: rgb(162, 40, 40);
+}
+
+.card-footer{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-btn{
+    /* border: 1px solid black; */
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(189, 31, 31);
+    color: white;
+    
+}
+
+.card-footer :hover{
+    transform: scale(1.1);
+    /* transform: rotate(10deg); */
+    /* transform: skew(10deg); */
+    background-color: rgb(230, 0, 0);
+
+}
+
+.card-image :hover{
+    transform: scale(1.1);
+    /* transform: rotate(300deg); */
+}
+
+
+
+
+
+/* .............................................................. */
+/* for second card */
+
+
+.row :nth-child(2) .card-header{
+    background-color: rgb(92, 19, 237);
+    color: white;
+    padding: 20px;
+}
+
+
+/* for third card */
+
+.row :nth-child(3) .card-header{
+    background-color: rgb(6, 46, 226);
+    color: white;
+    padding: 20px;
+}
+

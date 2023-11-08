@@ -1,0 +1,145 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Playfair+Display:ital@1&family=Sofia+Sans+Condensed:ital,wght@1,1000&display=swap');
+
+
+
+*{
+    margin: 0;
+}
+
+.main-head{
+    text-align: center;
+    margin-top: 20px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Bungee Spice', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Sofia Sans Condensed', sans-serif; */
+
+}
+
+.row{
+    margin-top: 30px;
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col{
+    width: 18%;
+    /* border: 1px solid black; */
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.row .col:nth-child(1){
+    background-color: rgb(191, 115, 115);
+}
+.row .col:nth-child(2){
+    background-color: rgb(32, 181, 188);
+}
+.row .col:nth-child(3){
+    background-color: rgb(63, 21, 155);
+}
+.row .col:nth-child(4){
+    background-color: rgb(149, 201, 16);
+}
+.row .col:nth-child(5){
+    background-color: rgb(191, 5, 115);
+}
+
+/* for second row */
+
+
+.row-two{
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-two{
+    width: 13%;
+    /* border: 1px solid black; */
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.row-two .col-two:nth-child(1){
+    background-color: rgb(191, 115, 115);
+}
+.row-two .col-two:nth-child(2){
+    background-color: rgb(32, 181, 188);
+}
+.row-two .col-two:nth-child(3){
+    background-color: rgb(63, 21, 155);
+}
+.row-two .col-two:nth-child(4){
+    background-color: rgb(149, 201, 16);
+}
+.row-two .col-two:nth-child(5){
+    background-color: rgb(191, 5, 115);
+}
+.row-two .col-two:nth-child(6){
+    background-color: rgb(56, 5, 115);
+}
+.row-two .col-two:nth-child(7){
+    background-color: rgb(19, 5, 80);
+}
+
+
+/* for third row */
+
+.row-three{
+    margin-top: 30px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-three{
+    width: 10%;
+    height: 200px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 12px;
+}
+
+
+.row-three .col-three:nth-child(1){
+    background-color: rgb(1, 2, 100);
+}
+
+.row-three .col-three:nth-child(2){
+    background-color: rgb(1, 2, 50);
+}
+.row-three .col-three:nth-child(3){
+    background-color: rgb(15,65,90);
+}
+.row-three .col-three:nth-child(4){
+    background-color: rgb(90, 65, 15);
+}
+.row-three .col-three:nth-child(5){
+    background-color: rgb(55, 155, 18);
+}
+.row-three .col-three:nth-child(6){
+    background-color: rgb(160, 2, 100);
+}
+.row-three .col-three:nth-child(7){
+    background-color: rgb(100, 20, 100);
+}
+.row-three .col-three:nth-child(8){
+    background-color: rgb(200, 2, 0);
+}
+.row-three .col-three:nth-child(9){
+    background-color: rgb(25, 100, 255);
+}
+
+

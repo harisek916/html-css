@@ -1,0 +1,28 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+.bg-success{
+    width: 400px;
+    height: 99px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.bg-warning{
+    width: 300px;
+    height: 99px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+
+.bg-danger{
+    width: 400px;
+    height: 49px;
+    background-color: red;
+    border: 1px solid black;
+}

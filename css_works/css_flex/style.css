@@ -1,0 +1,42 @@
+.parent{
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+/* setting vertically */
+
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    
+}
+
+.child{
+    width: 20%;
+    height: 200px;    
+}
+
+.parent .child:nth-child(1){
+    background-color: red;
+}
+
+.parent .child:nth-child(2){
+    background-color: rgb(0, 4, 255);
+}
+
+.parent .child:nth-child(3){
+    background-color: rgb(21, 222, 2);
+}
+
+.parent .child:nth-child(4){
+    background-color: rgb(0, 255, 153);
+}
+
+
