@@ -94,10 +94,10 @@ body {
 
 }
 
-/* .button:hover{
+.button:hover{
     transform: scale(1.1);
     background-color: rgb(255, 0, 4);
-} */
+}
 
 .button:active{
     /* transform:scale(1.1); */

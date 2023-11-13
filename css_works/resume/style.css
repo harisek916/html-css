@@ -64,11 +64,12 @@ body{
 
 .mimage-section{
     /* background-color: rgb(208, 29, 29); */
+    position: relative;
     width: 100%;
 }
 .mname{
     position: absolute;
-    top: 18%;
+    bottom: 1%;
     color: whitesmoke;
 }
 .mright-inside-div{
